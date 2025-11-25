@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    
+    <!-- Required meta tags. Hvae these on all websites, makes them mobile friendly first, etc. --> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video.  Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 'd-flex' is a bootstrap class that enables flexbox. align-items-center class (bootstrap) aligns the content vertically, while the h-100 class (bootstrap) is saying the container covers the full length of the page. You can inspect with dev tools to see what happens when you add/remove h-100 -->
+    <div class="container d-flex align-items-center h-100">
+      <div class="row">
+        <!-- by putting the header tag, we can use the bootstrap class 'text-center' to center the h1 -->
+        <header class="text-center"> 
+          <!-- Note the class in h1. Because bootstrap is linked, this ALONE will make the h1 uppercase. -->
+          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+        </header>
+        <!-- This creates a 'buffer' (space) between the header above and the section below -->
+        <div class="buffer"></div>
+          <!-- This section tag with the bootstrap class 'text-center' makes the hr small and centered. A/B to see the difference -->
+        <section class="text-center">
+          <hr>
+          <!-- Note that 'btn btn-primary' is a bootstrap class, and 'btn-xl is a custom class' -->
+          <a href="https://mailchi.mp/69cf899e60ab/startup-landing-page"><button class="btn btn-primary btn-xl">Find out more</button></a>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
