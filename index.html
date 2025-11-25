@@ -19,6 +19,7 @@
     
     <!-- My own stylesheet -->
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <!-- 'd-flex' is a bootstrap class that enables flexbox. align-items-center class (bootstrap) aligns the content vertically, while the h-100 class (bootstrap) is saying the container covers the full length of the page. You can inspect with dev tools to see what happens when you add/remove h-100 -->
@@ -27,7 +28,7 @@
         <!-- by putting the header tag, we can use the bootstrap class 'text-center' to center the h1 -->
         <header class="text-center"> 
           <!-- Note the class in h1. Because bootstrap is linked, this ALONE will make the h1 uppercase. -->
-          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+          <h1 class="text-uppercase animate__animated animate__fadeIn"><strong>The biggest startup event of the year</strong></h1>
         </header>
         <!-- This creates a 'buffer' (space) between the header above and the section below -->
         <div class="buffer"></div>
@@ -35,7 +36,7 @@
         <section class="text-center">
           <hr>
           <!-- Note that 'btn btn-primary' is a bootstrap class, and 'btn-xl is a custom class' -->
-          <a href="https://mailchi.mp/69cf899e60ab/startup-landing-page"><button class="btn btn-primary btn-xl">Find out more</button></a>
+          <a href="https://mailchi.mp/69cf899e60ab/startup-landing-page"><button class="btn btn-primary btn-xl animate__animated animate__pulse">Find out more</button></a>
         </section>
       </div>
     </div>
